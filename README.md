@@ -1,8 +1,8 @@
-# React + Vite
+This React web app displays the (live) local current time depending on a time zone the user selects from a drop-down list.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+It uses moment-timezone library.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To run this:
+1. Download the repository
+2. Install required dependencies. In terminal, run "npm i"
+3. Run on your local environment. In terminal, run "npm run dev"

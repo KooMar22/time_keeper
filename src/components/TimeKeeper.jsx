@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import moment from "moment-timezone";
-import timeZones from "./TimeZones";
+import timeZones from "../TimeZones";
 
 
 function TimeKeeper() {
