@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+}
+
+.container {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.3rem;
+  background-color: wheat;
+  color: black;
+  display: grid;
+  width: 100dvw;
+  height: 70dvh;
+  place-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  font-style: italic;
+  padding: 10px;
+}
+
+.timeDisplay {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+select {
+  margin: 10px;
+  padding: 10px;
+  font-size: 0.7;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.footer {
+  background-color: whitesmoke;
+  color: black;
+  font-style: italic;
+  width: 100dvw;
+  padding-left: 10px;
+  justify-self: left;
+}
